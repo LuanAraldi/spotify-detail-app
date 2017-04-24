@@ -1,1 +1,1 @@
-Eng7SemesterServer
+Spotify Details APP
