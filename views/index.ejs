@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body        { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1><span class="fa fa-music"></span> Spotify Track Detail App </h1>
+        <form action="/trackdetails" method="post">
+            <div class="form-group">
+                <label for="trackuri">Track URI</label>
+                <input type="text" class="form-control" id="trackuri" name="trackuri">
+            </div>
+            <button type="submit" class="btn btn-primary">Get Details!</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
